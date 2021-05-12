@@ -2,6 +2,13 @@
 
 .app {
   font-family: "Nanum Pen Script", cursive;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
   position: absolute;
   top: 0;
   right: 0;

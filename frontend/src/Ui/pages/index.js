@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 import Sidebar from "../components/sidebar/Sidebar";
 
@@ -12,6 +13,7 @@ const MainPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <Footer />
     </>
   );
 };

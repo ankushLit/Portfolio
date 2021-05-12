@@ -2,7 +2,9 @@
   background-color: black;
   height: 80px;
   display: flex;
-  padding: 0.5rem calc((100vw-1000px) / 2);
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .my-name {
