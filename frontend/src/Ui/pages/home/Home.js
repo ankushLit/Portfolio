@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 function Home() {
   return (
     <div className="home" id="home-section">
-      <h1>Hello, I am Ankush</h1>
+      <h1>Hello, I'm Ankush</h1>
       <p className="typewriter">
         I'm a{" "}
         <Typical
