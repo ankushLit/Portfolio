@@ -20,13 +20,22 @@ h1 {
 .project-btn {
   margin-top: 4rem;
   margin-bottom: 4rem;
-  background-color: white;
-  padding: 1rem;
+  padding: 0 2rem;
+  height: 70px;
+  display: flex;
+  align-items: center;
   border-radius: 1rem;
+  box-shadow: 0 0 10px;
+  box-shadow: var(--outer-shadow);
+  font-size: 1.5rem;
+}
+
+.project-btn:hover {
+  box-shadow: var(--inner-shadow);
 }
 
 .rm-fn {
-  color: black !important;
+  color: white !important;
   margin: 0;
   text-decoration: none;
 }

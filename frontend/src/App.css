@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 
+:root {
+  --outer-shadow: 3px 3px 3px #222327, -3px -3px 3px #363636;
+  --outer-shadow-0: 0px 0px 0px #222327, 0px 0px 0px #363636;
+  --inner-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
+  --inner-shadow-0: inset 0px 0px 0px #222327, inset 0px 0px 0px #363636;
+}
+
 .app {
   font-family: "Nanum Pen Script", cursive;
-  background-color: black;
+  background-color: #2b2c2f;
   height: 100%;
   width: 100%;
   display: flex;

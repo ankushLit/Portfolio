@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 
 import Typical from "react-typical";
+
 import { NavLink } from "react-router-dom";
 
 function Home() {
@@ -26,11 +27,9 @@ function Home() {
         />
       </p>
 
-      <div className="project-btn">
-        <NavLink className="rm-fn" to="/projects">
-          Projects -{">"}
-        </NavLink>
-      </div>
+      <NavLink className="rm-fn" to="/about">
+        <div className="project-btn">About me -{">"}</div>
+      </NavLink>
     </div>
   );
 }

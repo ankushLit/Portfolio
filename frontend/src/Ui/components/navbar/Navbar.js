@@ -9,21 +9,22 @@ function Navbar({ toggle }) {
   return (
     <header>
       <nav className="nav-header">
-        <NavLink className="link my-name" to="/" exact>
+        <NavLink
+          className="link my-name"
+          activeClassName="active-btn"
+          to="/"
+          exact
+        >
           Ankush
         </NavLink>
-        <div onClick={toggle}>
-          <FaBars className="bars" />
+        <div onClick={toggle} className="bars">
+          <FaBars />
         </div>
         <div className="menu-items">
-          <NavLink
-            className="link"
-            activeClassName="active-projects"
-            to="/projects"
-          >
+          <NavLink className="link" activeClassName="active-btn" to="/projects">
             Projects
           </NavLink>
-          <NavLink className="link" activeClassName="active-about" to="/about">
+          <NavLink className="link" activeClassName="active-btn" to="/about">
             About me
           </NavLink>
         </div>
